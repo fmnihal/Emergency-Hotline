@@ -334,3 +334,20 @@ let time= new Date().toLocaleDateString('en-us', {
 //     document.getElementById('test').innerText= time;
 //     // document.getElementById('test').innerText.style.whiteSpace='nowarap';
 // });
+
+// Method 1
+// document.getElementById('btn-cls').addEventListener('click', function(event){
+//     // const cards= document.getElementsByClassName('log-card');
+//     const cards= document.querySelectorAll('.log-card');
+//     for (card of cards){
+//         card.remove();
+//     }
+// });
+// Method 2
+// document.getElementById('btn-cls').addEventListener('click', function(event){
+//     document.getElementById('log-container').innerHTML=``;
+// });
+// Method 3
+document.getElementById('btn-cls').addEventListener('click', function(event){
+    document.getElementById('log-container').innerHTML="";
+});
