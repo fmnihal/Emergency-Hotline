@@ -130,15 +130,13 @@ document.getElementById('tap-call-1').addEventListener('click', function(event){
         let logCard= document.createElement('div');
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
-            <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                <div class="w-3/5">
-                    <p class="text-[16px] font-semibold">Fire Service Number</p>
-                    <p class="text-gray-400">999</p>
-                </div>
-                <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-2').addEventListener('click', function(event){
@@ -155,12 +153,12 @@ document.getElementById('tap-call-2').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-3').addEventListener('click', function(event){
@@ -177,12 +175,12 @@ document.getElementById('tap-call-3').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-4').addEventListener('click', function(event){
@@ -199,12 +197,12 @@ document.getElementById('tap-call-4').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-5').addEventListener('click', function(event){
@@ -221,12 +219,12 @@ document.getElementById('tap-call-5').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-6').addEventListener('click', function(event){
@@ -243,12 +241,12 @@ document.getElementById('tap-call-6').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-7').addEventListener('click', function(event){
@@ -265,12 +263,12 @@ document.getElementById('tap-call-7').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-8').addEventListener('click', function(event){
@@ -287,12 +285,12 @@ document.getElementById('tap-call-8').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 document.getElementById('tap-call-9').addEventListener('click', function(event){
@@ -309,12 +307,12 @@ document.getElementById('tap-call-9').addEventListener('click', function(event){
         logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
         logCard.innerHTML=`
             <div class="w-3/5">
-                <p class="text-[16px] font-semibold">Fire Service Number</p>
-                <p class="text-gray-400">999</p>
+                <p class="text-[16px] font-semibold">${name}</p>
+                <p class="text-gray-400">${phone}</p>
             </div>
-            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            <p class="text-[16px] w-2/5">${time}</p>
         `;
-        document.getElementById('log-container').append(logCard);
+        document.getElementById('log-container').prepend(logCard);
     }
 });
 
