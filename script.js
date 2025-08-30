@@ -122,6 +122,28 @@ document.getElementById('tap-call-1').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        
+        let name= document.getElementById('help-name-1').innerText;
+        let phone= document.getElementById('help-call-1').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                <div class="w-3/5">
+                    <p class="text-[16px] font-semibold">Fire Service Number</p>
+                    <p class="text-gray-400">999</p>
+                </div>
+                <p class="text-[16px] w-2/5">11:36:58 AM</p>
+            </div>
+        `;
+        document.getElementById('log-container').append(logCard);
+        // <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+        //                 <div class="w-3/5">
+        //                     <p class="text-[16px] font-semibold">Fire Service Number</p>
+        //                     <p class="text-gray-400">999</p>
+        //                 </div>
+        //                 <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        //             </div>
     }
 });
 document.getElementById('tap-call-2').addEventListener('click', function(event){
@@ -204,14 +226,14 @@ let time= new Date().toLocaleDateString('en-us', {
     hour12: true
 });
 
-document.getElementById('tap-heart-1').addEventListener('click', function(event){
-    // console.log(new Date().toLocaleDateString('en-US', { 
-    //     hour: '2-digit', 
-    //     minute: '2-digit', 
-    //     second: '2-digit',
-    //     hour12: true
-    // }));
-    console.log(time);
-    document.getElementById('test').innerText= time;
-    // document.getElementById('test').innerText.style.whiteSpace='nowarap';
-});
+// document.getElementById('tap-call-1').addEventListener('click', function(event){
+//     // console.log(new Date().toLocaleDateString('en-US', { 
+//     //     hour: '2-digit', 
+//     //     minute: '2-digit', 
+//     //     second: '2-digit',
+//     //     hour12: true
+//     // }));
+//     console.log(time);
+//     document.getElementById('test').innerText= time;
+//     // document.getElementById('test').innerText.style.whiteSpace='nowarap';
+// });
