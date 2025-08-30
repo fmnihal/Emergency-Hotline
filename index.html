@@ -20,15 +20,15 @@
             </div>
             <div id="nav-right" class="flex gap-5">
                 <div class="bg-[#41ff6b1a] rounded-[50px] h-[52px] w-[123px] p-3 flex justify-around">
-                    <span>0</span>
-                    <img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]">
+                    <span class="flex flex-row gap-2 items-center"><span id="heart-count" class="font-bold">0</span>
+                    <img src="./assets/heart.png" alt="" class="h-[30px] w-[30px]"></span>
                 </div>
                 <div class="bg-[#41ff6b1a] rounded-[50px] h-[52px] w-[123px] p-3 flex justify-around">
-                    <span>100</span>
-                    <img src="./assets/coin.png" alt="" class="h-[24px] w-[24px]">
+                    <span class="flex flex-row gap-2"><span id="coin-count" class="font-bold">100</span>
+                    <img src="./assets/coin.png" alt="" class="h-[24px] w-[24px]"></span>
                 </div>
                 <div class="rounded-[50px] bg-[#00a63e] h-[52px] w-[123px] p-3 flex justify-around">
-                    <span class="text-white">2</span> <span class="text-white">Copy</span>
+                    <p><span id="copy-count" class="text-white">2</span> <span class="text-white">Copy</span></p>
                 </div>
             </div>
         </div>
@@ -43,22 +43,22 @@
 
     <main class="bg-[#f5fff6] m-0">
         <div class="mx-16 flex">
-            <div class="card-container gap-[30px] grid grid-cols-3 w-3/4 my-16 mx-8">
+            <div class="card-container gap-[30px] grid grid-cols-3 md:flex md:flex-wrap w-3/4 my-16 mx-8">
                 
                 <div class="card shadow-md p-8 h-[380px] w-[300px] rounded-xl bg-white">
                     <div class="flex justify-between items-center mb-4">
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets//emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-1" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">N</div>
+                    <div id="help-name-1" class="text-[24px] font-semibold">N</div>
                     <div class="text-[18px]">N</div>
-                    <div class="text-[32px] mt-6">9</div>
+                    <div id="help-call-1" class="text-[32px] mt-6">9</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">A</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-1" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-1" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -67,15 +67,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/police.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-2" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">P</div>
+                    <div id="help-name-2" class="text-[24px] font-semibold">P</div>
                     <div class="text-[18px]">P</div>
-                    <div class="text-[32px] mt-6">9</div>
+                    <div id="help-call-2" class="text-[32px] mt-6">9</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">A</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-2" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-2" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -84,15 +84,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/fire-service.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-3" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">Fire Service Number</div>
+                    <div id="help-name-3" class="text-[24px] font-semibold">Fire Service Number</div>
                     <div class="text-[18px]">Fire Service</div>
-                    <div class="text-[32px] mt-6">999</div>
+                    <div id="help-call-3" class="text-[32px] mt-6">999</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">Fire</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-3" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-3" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -101,15 +101,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/fire-service.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-4" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">A</div>
+                    <div id="help-name-4" class="text-[24px] font-semibold">A</div>
                     <div class="text-[18px]">A</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-4" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">H</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-4" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-4" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -118,15 +118,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-5" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">W</div>
+                    <div id="help-name-5" class="text-[24px] font-semibold">W</div>
                     <div class="text-[18px]">W</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-5" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">H</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-5" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-5" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -135,15 +135,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-6" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">A</div>
+                    <div id="help-name-6" class="text-[24px] font-semibold">A</div>
                     <div class="text-[18px]">A</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-6" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">G</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-6" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-6" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -152,15 +152,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-7" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">E</div>
+                    <div id="help-name-7" class="text-[24px] font-semibold">E</div>
                     <div class="text-[18px]">E</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-7" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">E</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-7" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-7" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -169,15 +169,15 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-8" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">B</div>
+                    <div id="help-name-8" class="text-[24px] font-semibold">B</div>
                     <div class="text-[18px]">B</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-8" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">N</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-8" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-8" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
 
@@ -186,34 +186,39 @@
                         <div class="h-[60px] w-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-[16px]">
                             <img src="./assets/emergency.png" alt="" class="h-8 w-8">
                         </div>
-                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span id="tap-heart-9" class="tap-heart"><i class="fa-regular fa-heart"></i></span>
                     </div>
-                    <div class="text-[24px] font-semibold">B</div>
+                    <div id="help-name-9" class="text-[24px] font-semibold">B</div>
                     <div class="text-[18px]">B</div>
-                    <div class="text-[32px] mt-6">1</div>
+                    <div id="help-call-9" class="text-[32px] mt-6">1</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">T</div>
                     <div class="gap-2 flex justify-between">
-                        <button class="p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
-                        <button class="p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
+                        <button id="tap-copy-9" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
+                        <button id="tap-call-9" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
                     </div>
                 </div>
             </div>
 
+
+
             <div id="call-history" class="p-6 my-16 bg-white w-1/4 shadow-md rounded-xl">
                 <div class="mb-4 flex justify-between">
-                    <div class="flex items-center gap-2">
+                    <div id="log-nav" class="flex items-center gap-2">
                         <span><i class="fa-regular fa-clock"></i></span><p class="text-[20px] font-medium">Call History</p>
                     </div>
-                    <button class="rounded-[50px] bg-[#00a63e] text-white px-9 h-[52px]">Clear</button>
+                    <button class="rounded-[50px] bg-[#00a63e] text-white px-9 h-[52px] w-2/4">Clear</button>
                 </div>
 
-                <div class="py-4 pl-4 flex bg-[#fafafa] items-center">
-                    <div class="">
-                        <p class="text-[18px] font-semibold">Fire Service Number</p>
-                        <p class="text-gray-400">999</p>
+                <div id="log-container">
+                    <div class="py-4 pl-4 flex bg-[#fafafa] items-center">
+                        <div class="">
+                            <p class="text-[18px] font-semibold">Fire Service Number</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[18px]">11:36:58 AM</p>
                     </div>
-                    <p class="text-[18px]">11:36:58 AM</p>
                 </div>
+                
             </div>
         </div>
 
