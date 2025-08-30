@@ -42,7 +42,7 @@
     </header>
 
     <main class="bg-[#f5fff6] m-0">
-        <div id="left-right-container" class="mx-16 flex justify-around md:flex md:flex-row lg:flex lg-flex-row">
+        <div id="left-right-container" class="mx-16 flex justify-between gap-[30px] md:flex md:flex-row lg:flex lg-flex-row">
             <div class="card-container gap-[30px] w-3/4 my-16 mx-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 
                 <div class="card shadow-md p-8 h-[380px] w-[300px] rounded-xl bg-white">
@@ -54,7 +54,7 @@
                     </div>
                     <div id="help-name-1" class="text-[24px] font-semibold">N</div>
                     <div class="text-[18px]">N</div>
-                    <div id="help-call-1" class="text-[32px] mt-6">9</div>
+                    <div id="help-call-1" class="text-[24px] mt-6">9</div>
                     <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">A</div>
                     <div class="gap-2 flex justify-between">
                         <button id="tap-copy-1" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
@@ -72,7 +72,7 @@
                     <div id="help-name-2" class="text-[24px] font-semibold">P</div>
                     <div class="text-[18px]">P</div>
                     <div id="help-call-2" class="text-[32px] mt-6">9</div>
-                    <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">A</div>
+                    <div class="py-[6px] px-4 bg-[#f2f2f2] h-[37px] w-[53px] rounded-xl text-[18px] mb-6">P</div>
                     <div class="gap-2 flex justify-between">
                         <button id="tap-copy-2" class="tap-copy p-[5px] rounded-[8px] border-2 border-gray-400 h-10 w-[120px] text-[16px] gap-2"><span><i class="fa-regular fa-copy"></i></span> Copy</button>
                         <button id="tap-call-2" class="tap-call p-[5px] rounded-[8px] h-10 w-[120px] text-[16px] bg-[#00a63e] text-white"><span><i class="fa-solid fa-phone"></i></span> Call</button>
@@ -210,48 +210,48 @@
                 </div>
 
                 <div id="log-container">
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-around">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">Fire Service Number</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
 
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">National Emergency Number</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p id="test" class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">Fire Service Number</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">Bangladseh Railway Helpline</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">Fire Service Number</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
-                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-                        <div class="">
+                    <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="w-3/5">
                             <p class="text-[16px] font-semibold">Anti-Corruption Helpline</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                        <p class="text-[16px] w-2/5">11:36:58 AM</p>
                     </div>
                 </div>
                 

@@ -196,3 +196,22 @@ document.getElementById('tap-call-9').addEventListener('click', function(event){
         document.getElementById('coin-count').innerText= coinCount;
     }
 });
+
+let time= new Date().toLocaleDateString('en-us', { 
+    hour: '2-digit', 
+    minute: '2-digit', 
+    second: '2-digit',
+    hour12: true
+});
+
+document.getElementById('tap-heart-1').addEventListener('click', function(event){
+    // console.log(new Date().toLocaleDateString('en-US', { 
+    //     hour: '2-digit', 
+    //     minute: '2-digit', 
+    //     second: '2-digit',
+    //     hour12: true
+    // }));
+    console.log(time);
+    document.getElementById('test').innerText= time;
+    // document.getElementById('test').innerText.style.whiteSpace='nowarap';
+});
