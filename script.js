@@ -41,3 +41,158 @@ let copyCount= parseInt(document.getElementById('copy-count').innerText);
 //     });
 // }
 
+document.getElementById('tap-heart-1').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-2').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-3').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-4').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-5').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-6').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-7').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-8').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+document.getElementById('tap-heart-9').addEventListener('click', function(event){
+    heartCount++;
+    document.getElementById('heart-count').innerText= heartCount;
+});
+
+document.getElementById('tap-copy-1').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-2').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-3').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-4').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-5').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-6').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-7').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-8').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+document.getElementById('tap-copy-9').addEventListener('click', function(event){
+    copyCount++;
+    document.getElementById('copy-count').innerText= copyCount;
+});
+
+document.getElementById('tap-call-1').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-2').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-3').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-4').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-5').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-6').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-7').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-8').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});
+document.getElementById('tap-call-9').addEventListener('click', function(event){
+    if (coinCount<20){
+        alert("You don't have enough coins to make call");
+        return;
+    } else{
+        coinCount-=20;
+        document.getElementById('coin-count').innerText= coinCount;
+    }
+});

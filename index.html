@@ -12,10 +12,10 @@
     </style>
 </head>
 <body>
-    <header class="">
+    <header>
         <div class="nav py-6 flex justify-between px-16">
             <div id="nav-left" class="h-[50px] w-[196px] flex items-center gap-[10px]">
-                <img src="./assets//logo.png" alt="" class="h-[50px] w-[50px] display-inline">
+                <img src="./assets/logo.png" alt="" class="h-[50px] w-[50px] display-inline">
                 <h2 class="font-semibold text-2xl text-green-800">Emergency Service</h2>
             </div>
             <div id="nav-right" class="flex gap-5">
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div id="banner" class="flex flex-col justify-center items-center bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-3 w-full">
+        <div id="banner" class="flex flex-col justify-center items-center bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-3 w-full md:min-w-full">
         <!-- bg-gradient-to-r from-[rgba(1, 50, 35, 1)] via-[rgba(0, 103, 71, 1)] to-[rgba(1, 50, 35, 1)] -->
             <img src="./assets/logo-dark.png" alt="" class="h-24 w-24 mt-3">
             <h1 class="text-[40px] text-white font-bold my-[6px]">Emergency Service Directory</h1>
@@ -42,8 +42,8 @@
     </header>
 
     <main class="bg-[#f5fff6] m-0">
-        <div class="mx-16 flex">
-            <div class="card-container gap-[30px] grid grid-cols-3 md:flex md:flex-wrap w-3/4 my-16 mx-8">
+        <div id="left-right-container" class="mx-16 flex justify-around md:flex md:flex-row lg:flex lg-flex-row">
+            <div class="card-container gap-[30px] w-3/4 my-16 mx-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 
                 <div class="card shadow-md p-8 h-[380px] w-[300px] rounded-xl bg-white">
                     <div class="flex justify-between items-center mb-4">
@@ -203,19 +203,55 @@
 
             <div id="call-history" class="p-6 my-16 bg-white w-1/4 shadow-md rounded-xl">
                 <div class="mb-4 flex justify-between">
-                    <div id="log-nav" class="flex items-center gap-2">
+                    <div id="log-nav" class="flex items-center gap-2 w-4/6">
                         <span><i class="fa-regular fa-clock"></i></span><p class="text-[20px] font-medium">Call History</p>
                     </div>
-                    <button class="rounded-[50px] bg-[#00a63e] text-white px-9 h-[52px] w-2/4">Clear</button>
+                    <button class="rounded-[50px] bg-[#00a63e] text-white px-9 h-[52px]">Clear</button>
                 </div>
 
                 <div id="log-container">
-                    <div class="py-4 pl-4 flex bg-[#fafafa] items-center">
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
                         <div class="">
-                            <p class="text-[18px] font-semibold">Fire Service Number</p>
+                            <p class="text-[16px] font-semibold">Fire Service Number</p>
                             <p class="text-gray-400">999</p>
                         </div>
-                        <p class="text-[18px]">11:36:58 AM</p>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                    </div>
+
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="">
+                            <p class="text-[16px] font-semibold">National Emergency Number</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                    </div>
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="">
+                            <p class="text-[16px] font-semibold">Fire Service Number</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                    </div>
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="">
+                            <p class="text-[16px] font-semibold">Bangladseh Railway Helpline</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                    </div>
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="">
+                            <p class="text-[16px] font-semibold">Fire Service Number</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
+                    </div>
+                    <div class="px-2 my-4 flex bg-[#fafafa] items-center justify-between">
+                        <div class="">
+                            <p class="text-[16px] font-semibold">Anti-Corruption Helpline</p>
+                            <p class="text-gray-400">999</p>
+                        </div>
+                        <p class="text-[16px] whitespace-nowrap">11:36:58 AM</p>
                     </div>
                 </div>
                 
