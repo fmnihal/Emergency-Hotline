@@ -115,6 +115,8 @@ document.getElementById('tap-copy-9').addEventListener('click', function(event){
     document.getElementById('copy-count').innerText= copyCount;
 });
 
+
+
 document.getElementById('tap-call-1').addEventListener('click', function(event){
     if (coinCount<20){
         alert("You don't have enough coins to make call");
@@ -122,7 +124,7 @@ document.getElementById('tap-call-1').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
-        
+        ///////////////////////////////////////////////////////////
         let name= document.getElementById('help-name-1').innerText;
         let phone= document.getElementById('help-call-1').innerText;
         let logCard= document.createElement('div');
@@ -137,13 +139,6 @@ document.getElementById('tap-call-1').addEventListener('click', function(event){
             </div>
         `;
         document.getElementById('log-container').append(logCard);
-        // <div class="log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between">
-        //                 <div class="w-3/5">
-        //                     <p class="text-[16px] font-semibold">Fire Service Number</p>
-        //                     <p class="text-gray-400">999</p>
-        //                 </div>
-        //                 <p class="text-[16px] w-2/5">11:36:58 AM</p>
-        //             </div>
     }
 });
 document.getElementById('tap-call-2').addEventListener('click', function(event){
@@ -153,6 +148,19 @@ document.getElementById('tap-call-2').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-2').innerText;
+        let phone= document.getElementById('help-call-2').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-3').addEventListener('click', function(event){
@@ -162,6 +170,19 @@ document.getElementById('tap-call-3').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-3').innerText;
+        let phone= document.getElementById('help-call-3').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-4').addEventListener('click', function(event){
@@ -171,6 +192,19 @@ document.getElementById('tap-call-4').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-4').innerText;
+        let phone= document.getElementById('help-call-4').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-5').addEventListener('click', function(event){
@@ -180,6 +214,19 @@ document.getElementById('tap-call-5').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-5').innerText;
+        let phone= document.getElementById('help-call-5').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-6').addEventListener('click', function(event){
@@ -189,6 +236,19 @@ document.getElementById('tap-call-6').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-6').innerText;
+        let phone= document.getElementById('help-call-6').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-7').addEventListener('click', function(event){
@@ -198,6 +258,19 @@ document.getElementById('tap-call-7').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-7').innerText;
+        let phone= document.getElementById('help-call-7').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-8').addEventListener('click', function(event){
@@ -207,6 +280,19 @@ document.getElementById('tap-call-8').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-8').innerText;
+        let phone= document.getElementById('help-call-8').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 document.getElementById('tap-call-9').addEventListener('click', function(event){
@@ -216,6 +302,19 @@ document.getElementById('tap-call-9').addEventListener('click', function(event){
     } else{
         coinCount-=20;
         document.getElementById('coin-count').innerText= coinCount;
+        ///////////////////////////////////////////////////////////
+        let name= document.getElementById('help-name-9').innerText;
+        let phone= document.getElementById('help-call-9').innerText;
+        let logCard= document.createElement('div');
+        logCard.className= "log-card px-2 my-4 flex bg-[#fafafa] items-center justify-between";
+        logCard.innerHTML=`
+            <div class="w-3/5">
+                <p class="text-[16px] font-semibold">Fire Service Number</p>
+                <p class="text-gray-400">999</p>
+            </div>
+            <p class="text-[16px] w-2/5">11:36:58 AM</p>
+        `;
+        document.getElementById('log-container').append(logCard);
     }
 });
 
