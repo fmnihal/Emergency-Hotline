@@ -113,6 +113,17 @@ document.getElementById('tap-copy-8').addEventListener('click', function(event){
 document.getElementById('tap-copy-9').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-9').innerText;
+    let phone= document.getElementById('help-call-9').innerText;
+    let msg= name+' '+phone;
+    navigator.clipboard.writeText(msg)
+        .then(()=>{
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 
 
