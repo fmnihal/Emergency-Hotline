@@ -81,34 +81,122 @@ document.getElementById('tap-heart-9').addEventListener('click', function(event)
 document.getElementById('tap-copy-1').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-1').innerText;
+    let phone= document.getElementById('help-call-1').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-2').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-2').innerText;
+    let phone= document.getElementById('help-call-2').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-3').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-3').innerText;
+    let phone= document.getElementById('help-call-3').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-4').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-4').innerText;
+    let phone= document.getElementById('help-call-4').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-5').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-5').innerText;
+    let phone= document.getElementById('help-call-5').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-6').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-6').innerText;
+    let phone= document.getElementById('help-call-6').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-7').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-7').innerText;
+    let phone= document.getElementById('help-call-7').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-8').addEventListener('click', function(event){
     copyCount++;
     document.getElementById('copy-count').innerText= copyCount;
+    ///////////////////////////////////////////////////////////
+    let name= document.getElementById('help-name-8').innerText;
+    let phone= document.getElementById('help-call-8').innerText;
+    navigator.clipboard.writeText(phone)
+        .then(()=>{
+            let msg= name+' Number '+phone;
+            alert(`${msg} has been copied!`);
+        }).catch(err=>{
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy. Please try again.');
+        });
 });
 document.getElementById('tap-copy-9').addEventListener('click', function(event){
     copyCount++;
@@ -116,9 +204,9 @@ document.getElementById('tap-copy-9').addEventListener('click', function(event){
     ///////////////////////////////////////////////////////////
     let name= document.getElementById('help-name-9').innerText;
     let phone= document.getElementById('help-call-9').innerText;
-    let msg= name+' '+phone;
-    navigator.clipboard.writeText(msg)
+    navigator.clipboard.writeText(phone)
         .then(()=>{
+            let msg= name+' Number '+phone;
             alert(`${msg} has been copied!`);
         }).catch(err=>{
             console.error('Failed to copy text: ', err);
